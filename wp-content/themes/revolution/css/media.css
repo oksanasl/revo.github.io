@@ -1,0 +1,207 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	
+	.index-post{
+		background-position: -283px 0;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+	nav ul li{
+		margin-right: 12px;
+	}
+	.index-post {
+	    background-position: -495px 0;
+	}
+	
+	.contact-info-wrap .subscribe{
+		margin-top: 30px;
+	}
+
+	footer .footer-menu{
+		margin-top: 30px;
+	}
+
+	.post-text .alignleft{
+		display: block;
+		margin: 15px auto;
+		float: none;
+	}
+
+	.post-text .alignright{
+		display: block;
+		margin: 15px auto;
+		float: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	nav ul{
+		display: none;
+	}
+
+	nav ul li{
+		display: block;
+		margin-right: 0;
+	}
+
+	nav ul li a{
+		display: block;
+		text-align: center;
+		padding: 5px 0;
+	}
+
+	nav ul li .sub-menu{
+		display: block!important;
+		position: relative;
+		width: 100%;
+	}
+	nav ul li .sub-menu a{
+		font-size: 12px;
+		text-decoration: underline;
+	}
+
+	#nav-icon2{
+		display: block;
+	}
+	
+	.index-slider-wrap{
+		padding: 30px 0 30px 0;
+	}
+
+	.index-post{
+		padding: 30px 0 30px 0;
+	}
+
+	.index-post{
+		background: #fff;
+	}
+
+	.contact-info-wrap{
+		padding: 30px 0 30px 0;
+	}
+
+	footer{
+		padding: 30px 0 30px 0;
+	}
+
+	.page-wrap{
+		padding: 30px 0 30px 0;
+	}
+
+	.cityes-title h3{
+		text-align: center;
+	}
+	
+	.city-list p{
+		text-align: center;
+	}
+	.contact-form form input[type=submit]{
+		margin: 20px auto 0 auto;
+	}
+
+}
+
+@media only screen and (max-width : 767px) {
+	
+	header .logo img{
+		display: block;
+		margin: 0 auto;
+	}
+	
+	header .contacts li{
+		text-align: center;
+	}
+
+	.contact-info-wrap .title h3{
+		text-align: center;
+	}
+
+	.contact-info-wrap .news{
+		margin-top: 30px;
+	}
+
+	.contact-info-wrap .subscribe input[type=submit]{
+		display: block;
+		margin: 20px auto 0 auto;
+	}
+
+	footer .text .title a{
+		display: block;
+		text-align: center;
+	}
+	footer .text p{
+		text-align: center;
+	}
+
+	footer .footer-menu .title h3{
+		text-align: center;
+	}
+
+	footer .footer-menu ul li{
+		display: block;
+		text-align: center;
+	}
+	
+	
+	.prices-block .price-title p{
+		text-align: center;
+	}
+	.prices-block .price-list .text-block-wrap .text-block{
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding: 10px 0;
+	}
+	.prices-block .sub-text p{
+		text-align: center;
+	}
+	.prices-block .sub-text  a{
+		margin: 0 auto;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
